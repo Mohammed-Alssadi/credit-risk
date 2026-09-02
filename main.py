@@ -15,8 +15,7 @@ anomaly_detector_model = AnomalyDetector()
 
 
 @app.get("/")
-def health_check():
-    return {"status": "online", "message": "الخدمة تعمل بنجاح"}
+
 
 
 @app.post("/api/credit-risk/predict")
