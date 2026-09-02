@@ -14,7 +14,7 @@ credit_risk_model = CreditRiskPredictor()
 anomaly_detector_model = AnomalyDetector()
 
 
-@app.get("/")
+
 
 
 
